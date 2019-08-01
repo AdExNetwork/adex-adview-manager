@@ -1,9 +1,9 @@
 import { BN } from 'bn.js'
 
-const IPFS_GATEWAY = 'https://ipfs.adex.network/ipfs/'
+const IPFS_GATEWAY = 'https://ipfs.moonicorn.network/ipfs/'
 
 const defaultOpts = {
-	marketURL: 'https://market.adex.network',
+	marketURL: 'https://market.moonicorn.network',
 	acceptedStates: ['Active', 'Ready'],
 	minPerImpression: '1',
 	minTargetingScore: 0,
@@ -115,7 +115,7 @@ function videoHtml({ evBody, onLoadCode, size, imgUrl, mediaMime }): string {
 }
 
 function adexIcon(): string {
-	return `<a href="https://www.adex.network" target="_blank" rel="noopener noreferrer"
+	return `<a href="https://www.moonicorn.network" target="_blank" rel="noopener noreferrer"
 			style="position: absolute; top: 0; right: 0;"
 		>`
 		+ `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px"
